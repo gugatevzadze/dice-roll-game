@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Press Start 2P", cursive;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #b5b9cf;
+}
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  margin: 5rem;
+}
+.players {
+  display: flex;
+  justify-content: space-around;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 2px#08090C;
+  gap: 5rem;
+  padding: 5rem;
+}
+.middle {
+  font-size: 4rem;
+  border: none;
+}
+.container-1 {
+}
+.character {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 4rem;
+  gap: 2rem;
+}
+.accumulated {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 3.8rem;
+  gap: 2rem;
+}
+.roll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 3.2rem;
+  gap: 2rem;
+}
+/* character selection */
+.hidden {
+  display: none;
+}
+.overlay {
+}
