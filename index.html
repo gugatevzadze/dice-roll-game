@@ -11,91 +11,40 @@
   <body>
     <header><h1>Welcome To The Dice Roll Game !</h1></header>
 
-    <section class="players">
-      <div class="container container-1">
+    <section class="wrapper">
+      <div class="container active" id="player--0">
         <div class="character">
-          <img class="avatar" src="" alt="Player Avatar" />
           <h2>Player 1</h2>
         </div>
-        <div class="accumulated">
-          <p class="accumulated-label">Accumulated Points</p>
-          <p class="accumulated-points">0</p>
+        <div class="total">
+          <p class="total-label">Total Points</p>
+          <p class="total-points" id="total--0">0</p>
         </div>
         <div class="roll">
-          <p class="roll-label">Current Roll Points</p>
-          <p class="roll-points">0</p>
+          <p class="roll-label">Current Roll</p>
+          <p class="roll-points" id="roll--0">0</p>
         </div>
       </div>
       <div class="container middle">
-        <button>Character Selection</button>
-        <div class="character-selection hidden">
-          <h2>Player 1</h2>
-          <div class="character-images">
-            <img
-              src="images/characters/character-1.png"
-              alt="Character 1"
-              id="player1-character1"
-            />
-            <img
-              src="images/characters/character-2.png"
-              alt="Character 2"
-              id="player1-character2"
-            />
-            <img
-              src="images/characters/character-5.png"
-              alt="Character 3"
-              id="player1-character3"
-            />
-            <img
-              src="images/characters/character-6.png"
-              alt="Character 3"
-              id="player1-character3"
-            />
-          </div>
-          <h2>Player 2</h2>
-          <div class="character-images">
-            <img
-              src="images/characters/character-1.png"
-              alt="Character 1"
-              id="player2-character1"
-            />
-            <img
-              src="images/characters/character-2.png"
-              alt="Character 2"
-              id="player2-character2"
-            />
-            <img
-              src="images/characters/character-5.png"
-              alt="Character 3"
-              id="player2-character3"
-            />
-            <img
-              src="images/characters/character-6.png"
-              alt="Character 3"
-              id="player2-character3"
-            />
-          </div>
-        </div>
-        <button>New game</button>
-        <img src="images/dice/dice-1.PNG" alt="Playing dice" class="dice" />
-
-        <button>Dice Roll</button>
-        <button>Hold</button>
+        <button class="btn" id="new-btn">New game</button>
+        <img src="dice-6.PNG" alt="Playing dice" id="dice" />
+        <button class="btn" id="roll-btn">Dice Roll</button>
+        <button class="btn" id="hold-btn">Hold</button>
       </div>
-      <div class="container container-2">
+      <div class="container" id="player--1">
         <div class="character">
-          <img class="avatar" src="" alt="Player Avatar" />
           <h2>Player 2</h2>
         </div>
-        <div class="accumulated">
-          <p class="accumulated-label">Accumulated Points</p>
-          <p class="accumulated-points">0</p>
+        <div class="total">
+          <p class="total-label">Total Points</p>
+          <p class="total-points" id="total--1">0</p>
         </div>
         <div class="roll">
-          <p class="roll-label">Current Roll Points</p>
-          <p class="roll-points">0</p>
+          <p class="roll-label">Current Roll</p>
+          <p class="roll-points" id="roll--1">0</p>
         </div>
       </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
